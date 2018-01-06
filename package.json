@@ -1,0 +1,32 @@
+{
+  "name": "wsj-scraper",
+  "version": "1.0.0",
+  "description": "This is an app that scrapes the top headlines for the and sends them to a",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johntg5/MongoDB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johntg5/MongoDB/issues"
+  },
+  "homepage": "https://github.com/johntg5/MongoDB#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.0.0-rc2",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {}
+}
