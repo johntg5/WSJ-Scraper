@@ -1,5 +1,5 @@
 body {
-    background: url('/img/panthers.jpg') no-repeat center center fixed;
+    background: url('/img/wsj.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,9 +19,13 @@ body {
 }
 
 .panel {
-    background: rgba(255, 255, 255, 0.9);
+    background: white;
 }
 
 h1 {
-    font-family: 'Special Elite', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+.btn-warning {
+    background-color: #d9534f;
 }
