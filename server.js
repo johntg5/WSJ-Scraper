@@ -39,7 +39,7 @@ app.set("view engine", "handlebars");
 
 // Database configuration with mongoose
 /*
-var databaseUri = "mongodb://localhost/nhlscrape";
+var databaseUri = "mongodb://localhost/wsjscrape";
 if (process.env.MONGODB_URI) {
     mongoose.connect(process.env.MONGODB_URI);
 }
